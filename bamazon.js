@@ -26,9 +26,7 @@ function runProducts() {
         var table = new Table(
             ["item_id", "product_name", "department_name", "price", "stock_quantity"],
             
-        );
-
-        //DISP 
+        ); 
         console.log("Buy Your Sports Memorbilia Today");
         console.log("+++++++++++++++++++++++++++++++++");
         for (var i = 0; i < results.length; i++) {
